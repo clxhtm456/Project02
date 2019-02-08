@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1735909606467798}
+  m_IsPrefabParent: 1
+--- !u!1 &1735909606467798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4045585865336642}
+  - component: {fileID: 114885452704133632}
+  - component: {fileID: 114412413515847586}
+  - component: {fileID: 114932599159877214}
+  - component: {fileID: 114018363197221836}
+  - component: {fileID: 114399934691805190}
+  - component: {fileID: 114809158520354740}
+  - component: {fileID: 114907990139266606}
+  - component: {fileID: 114022944974486724}
+  m_Layer: 11
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4045585865336642
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114018363197221836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085051e1617c2f34cb5df5834f08a81c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114022944974486724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ad020fb03be864aaeca40a6564091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confirmPanel: {fileID: 0}
+  createPanel: {fileID: 0}
+  playerMoney: {fileID: 0}
+  progressBar: {fileID: 0}
+  toolChoicePanel: {fileID: 0}
+  turnPanel: {fileID: 0}
+  metalChoicePanel: {fileID: 0}
+  subChoicePanel: {fileID: 0}
+  craftCompPanel: {fileID: 0}
+  gradingPanel: {fileID: 0}
+--- !u!114 &114399934691805190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c682dfb805b5348bd8f55d8e7fde65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114412413515847586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad80cc6eb9af7f8498f0bb41e9ee673a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleArray:
+  - {fileID: 1101802190201224, guid: 1e668d8f7b47c2a48a6c501329d266cc, type: 2}
+--- !u!114 &114809158520354740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a081f84d109e464ea7c8bcd1779d96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultWeapon:
+    iconEntry: 0
+    itemName: 
+    itemContext: 
+    toolList:
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    resourceMetal:
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+    resourceItem:
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+    - iconEntry: 0
+      itemEntry: 0
+      itemName: 
+      itemPrice: 0
+      itemContext: 
+      rareity: 0
+      parameter: []
+--- !u!114 &114885452704133632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a26dd00f429b1468a7961b3b94a3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeout: {fileID: 0}
+  saveManaged:
+    stockState: []
+    ownTool: 
+    ownSubr: 
+    ownWeapon: []
+    ownFactory: []
+  playerStartMoney: 12435
+  turnPerMoney: 0
+--- !u!114 &114907990139266606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8d42bd9d5049143bfd78d4b664c8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stockList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114932599159877214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735909606467798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f86060abd60f643848062d95228177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectSource: {fileID: 0}
+  bgmSource: {fileID: 0}
+  effectList: []
+  bgmList: []
